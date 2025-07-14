@@ -38,9 +38,9 @@ This is the official code of EchoShot, which allows users to generate **multiple
 
 
 ## 🔔 News
-- [x] July 15, 2025: 🔥 EchoShot-1.3B-preview is now available at [HuggingFace](https://huggingface.co/JonneyWang/EchoShot)!
-- [x] July 15, 2025: 🎉 Release code of inference and training codes. 
-- [x] May 25, 2025: We propose [EchoShot](https://johnneywang.github.io/EchoShot-webpage/), a multi-shot portrait video generation model.
+- July 15, 2025: 🔥 EchoShot-1.3B-preview is now available at [HuggingFace](https://huggingface.co/JonneyWang/EchoShot)!
+- July 15, 2025: 🎉 Release code of inference and training codes. 
+- May 25, 2025: We propose [EchoShot](https://johnneywang.github.io/EchoShot-webpage/), a multi-shot portrait video generation model.
 
 ## ⚙️ Installation
 ### Construct Environment
