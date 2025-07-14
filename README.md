@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" height=100>
+  <img src="assets/icon.png" height=75>
 </p>
 
 <h1 align='center'>EchoShot: Multi-Shot Portrait Video Generation</h1>
@@ -10,8 +10,7 @@
     ·
     <strong><a href="https://scholar.google.com/citations?user=LMVeRVAAAAAJ&hl=en&oi=ao">Sijia Cai</a><sup>2,&dagger;</sup></strong>
     ·
-    <strong><a href="https://gr.xjtu.edu.cn/web/zhangwzh123/">Weizhan Zhang</a><sup>1,*</sup></strong>
-    ·
+    <strong><a href="https://gr.xjtu.edu.cn/web/zhangwzh123/">Weizhan Zhang</a><sup>1,*</sup></strong><br>
     <strong><a href="https://gr.xjtu.edu.cn/web/yancaixia">Caixia Yan</a><sup>1</sup></strong>
     ·
     <strong><a href="">Yachuang Feng</a><sup>2</sup></strong>
@@ -20,12 +19,14 @@
     .
     <strong><a href="https://scholar.google.com/citations?user=T9AzhwcAAAAJ&hl=zh-CN&oi=ao">Jieping Ye</a><sup>2</sup></strong>
     <br>
+    <br>
     <sup>1</sup>Xi'an Jiaotong University &nbsp;&nbsp;&nbsp;&nbsp;
     <sup>2</sup>Alibaba Cloud
     <br>
     <br>
         <a href="https://arxiv.org/abs/2506.15838"><img src='https://img.shields.io/badge/+-arXiv-red' alt='Paper PDF'></a>
         <a href="https://johnneywang.github.io/EchoShot-webpage/"><img src='https://img.shields.io/badge/+-Project_Page-blue' alt='Project Page'></a>
+        <a href="https://github.com/JoHnneyWang/EchoShot"><img src='https://img.shields.io/badge/+-Github_Page-green' alt='Github Page'></a>
         <a href="https://huggingface.co/JonneyWang/EchoShot"><img src='https://img.shields.io/badge/+-HuggingFace-yellow'></a>
     <br>
 </p>
@@ -43,6 +44,12 @@ This is the official code of EchoShot, which allows users to generate **multiple
 - May 25, 2025: We propose [EchoShot](https://johnneywang.github.io/EchoShot-webpage/), a multi-shot portrait video generation model.
 
 ## ⚙️ Installation
+### Prepare Code
+First, use this code to download codes:
+
+    git clone https://github.com/D2I-ai/EchoShot
+    cd EchoShot
+
 ### Construct Environment
 Use this code to install the required packages:
 
