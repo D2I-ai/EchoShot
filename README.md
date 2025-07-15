@@ -89,6 +89,7 @@ EchoShot
 
 ## 🎬 Usage
 ### Inference
+#### With LLM prompt extension
 For optimal performance, we highly recommend using LLM for prompt extension. We provide a Dashscope API usage for extension:
 - Use the Dashscope API for extension.
   - Apply for a `dashscope.api_key` in advance ([EN](https://www.alibabacloud.com/help/en/model-studio/getting-started/first-api-call-to-qwen) | [CN](https://help.aliyun.com/zh/model-studio/getting-started/first-api-call-to-qwen)).
@@ -99,6 +100,13 @@ You can specify the DASH_API_KEY and other important configs in [generate.sh](./
 ```
 bash generate.sh
 ```
+
+#### Without LLM prompt extension
+If you don't want to use prompt extension, remove the --use_prompt_extend in [generate.sh](./generate.sh) and run:
+```
+bash generate.sh
+```
+
 ### Train
 If you want to train your own version of the model, please prepare the dataset, which should include video files and their corresponding JSON files. Here, we provide an example in [dataset/train.json](./dataset/train.json) for reference. All training configurations are stored in [config_train.py](./config_train.py), where you can make specific modifications according to your needs. Once everything is set up, execute the following code to start the training process:
 ```
