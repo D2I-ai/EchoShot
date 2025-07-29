@@ -3,7 +3,6 @@ import os.path as osp
 import torch
 from easydict import EasyDict
 import torch
-from datetime import datetime
 from torch.distributed.fsdp import ShardingStrategy
 
 

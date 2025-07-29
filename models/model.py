@@ -6,12 +6,11 @@ import math
 from .attention import flash_attention ###
 from torch.utils.checkpoint import checkpoint_sequential
 from functools import partial
-from einops import rearrange
 
 __all__ = ['Transformer']
 
 TCROPE_SHIFT = 4
-TAROPE_SHIFT = 6
+TAROPE_SHIFT = 4
 
 def sinusoidal_embedding_1d(dim, position):
     # preprocess

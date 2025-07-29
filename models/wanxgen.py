@@ -10,7 +10,6 @@ from torch.distributed.fsdp.wrap import lambda_auto_wrap_policy
 from functools import partial
 from contextlib import nullcontext
 
-from .t5 import umt5_xxl
 from utils import HuggingfaceTokenizer
 
 from utils.fm_solvers import FlowDPMSolverMultistepScheduler
@@ -21,10 +20,6 @@ from models.vae import VideoVAE
 from models.model import Transformer
 
 from utils.utils import (
-    randn_like,
-    cache_video,
-    rand_name,
-    randn_like,
     to_
 )
 
