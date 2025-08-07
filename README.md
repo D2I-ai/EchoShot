@@ -29,6 +29,8 @@
         <a href="https://github.com/JoHnneyWang/EchoShot"><img src='https://img.shields.io/badge/+-Github_Page-green' alt='Github Page'></a>
         <a href="https://huggingface.co/JonneyWang/EchoShot"><img src='https://img.shields.io/badge/+-HuggingFace-yellow'></a>
     <br>
+    <br>
+Please give us a star⭐ on GitHub if you like our work.
 </p>
 
 ## 📝 Intro
