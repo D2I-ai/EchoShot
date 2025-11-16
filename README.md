@@ -3,6 +3,9 @@
 </p>
 
 <h1 align='center'>EchoShot: Multi-Shot Portrait Video Generation</h1>
+<p align='center'>
+    ☆ NeurIPS 2025 ☆
+</p>
 <p align="center">
     <strong><a href="https://scholar.google.com/citations?hl=en&user=zQnTBEoAAAAJ">Jiahao Wang</a><sup>1</sup></strong>
     ·
@@ -41,6 +44,7 @@ This is the official code of EchoShot, which allows users to generate **multiple
 
 
 ## 🔔 News
+- September 18, 2025: 🎉🎉🎉 EchoShot has been accepted to __NeurIPS 2025__!
 - July 15, 2025: 🔥 EchoShot-1.3B-preview is now available at [HuggingFace](https://huggingface.co/JonneyWang/EchoShot)!
 - July 15, 2025: 🎉 Release code of inference and training codes. 
 - May 25, 2025: We propose [EchoShot](https://johnneywang.github.io/EchoShot-webpage/), a multi-shot portrait video generation model.
